@@ -1,9 +1,10 @@
 import ScrollLink from "@/common/ScrollLink";
+import { orbitronFont } from "@/constants/localFonts";
 import Image from "next/image";
 
 const DesktopNav = () => {
    return (
-      <nav className="px-2 py-6 flex items-center justify-between ">
+      <nav className="px-2 py-10 flex items-center justify-between ">
          <Image
             width={"160"}
             height={"160"}
@@ -15,7 +16,10 @@ const DesktopNav = () => {
             alt={"logo"}
             className="md:w-[200px]"
          />
-         <button className="lg:hidden btn btn-sm text-lg">Work With Me</button>
+         <button
+            className={`lg:hidden btn btn-sm ${orbitronFont.variable} font-sans`}>
+            Work With Me
+         </button>
          <ul className="hidden lg:flex items-center gap-x-4">
             <li>
                <ScrollLink
