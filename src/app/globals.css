@@ -24,4 +24,7 @@
    .text-link {
       @apply text-accent font-bold hover:text-white transition-all duration-200 cursor-pointer;
    }
+   .active {
+      @apply bg-accent text-white;
+   }
 }
