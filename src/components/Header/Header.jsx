@@ -3,12 +3,12 @@ import DesktopNav from "./DesktopNav";
 
 const Header = () => {
    return (
-      <div
+      <header
          className="min-h-screen pb-8"
          id="header">
          <DesktopNav />
          <Banner />
-      </div>
+      </header>
    );
 };
 
