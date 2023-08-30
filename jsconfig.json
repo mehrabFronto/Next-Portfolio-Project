@@ -5,7 +5,8 @@
          "@/common/*": ["./src/common/*"],
          "@/public/*": ["./public/*"],
          "@/constants/*": ["./src/constants/*"],
-         "@/utils/*": ["./src/utils/*"]
+         "@/utils/*": ["./src/utils/*"],
+         "@/HOC/*": ["./src/HOC/*"]
       }
    }
 }
