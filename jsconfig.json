@@ -4,7 +4,9 @@
          "@/components/*": ["./src/components/*"],
          "@/common/*": ["./src/common/*"],
          "@/public/*": ["./public/*"],
-         "@/constants/*": ["./src/constants/*"]
+         "@/constants/*": ["./src/constants/*"],
+         "@/utils/*": ["./src/utils/*"],
+         "@/HOC/*": ["./src/HOC/*"]
       }
    }
 }
