@@ -9,7 +9,7 @@ import { BiUpArrow } from "react-icons/bi";
 
 const page = () => {
    return (
-      <div className="space-y-20">
+      <div>
          <Header />
          <About />
          <Skills />

@@ -7,7 +7,7 @@ import Image from "next/image";
 const About = () => {
    return (
       <div
-         className="min-h-screen pt-8 flex items-center justify-center p-2"
+         className="min-h-screen flex items-center justify-center px-2"
          id="about">
          <div
             className="w-full flex flex-col lg:flex-row lg:justify-between 

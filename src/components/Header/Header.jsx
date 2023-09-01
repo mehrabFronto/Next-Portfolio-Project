@@ -4,7 +4,7 @@ import DesktopNav from "./DesktopNav";
 const Header = () => {
    return (
       <header
-         className="min-h-screen p-2"
+         className="min-h-screen px-2"
          id="header">
          <DesktopNav />
          <Banner />
