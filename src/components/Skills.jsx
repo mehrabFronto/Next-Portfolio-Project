@@ -38,7 +38,7 @@ const skills = [
 const Skills = () => {
    return (
       <div
-         className="min-h-screen pt-8 flex items-center justify-center"
+         className="min-h-screen pt-8 flex items-center justify-center p-2"
          id="skills">
          <div className="flex flex-col lg:flex-row lg:justify-between lg:gap-x-10 gap-y-12">
             {/* text */}

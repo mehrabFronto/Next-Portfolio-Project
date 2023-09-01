@@ -11,7 +11,7 @@ const Layout = ({ children }) => {
       <html lang="en">
          <body
             className={`bg-body bg-no-repeat bg-cover font-serif ${rajdhaniFont.variable}`}>
-            <main className="container min-h-screen pb-8 p-2 md:p-4">
+            <main className="container min-h-screen pb-8  md:p-4">
                {children}
             </main>
          </body>
