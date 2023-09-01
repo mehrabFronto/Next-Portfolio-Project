@@ -7,7 +7,7 @@ import Link from "next/link";
 const Projects = () => {
    return (
       <div
-         className="min-h-screen pt-8"
+         className="min-h-screen p-2 pt-8"
          id="projects">
          <div className="p-2 md:p-4 lg:p-6 2xl:p-12">
             <WithMotion

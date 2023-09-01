@@ -5,7 +5,7 @@ import { fadeIn } from "@/utils/variants";
 const Contact = () => {
    return (
       <div
-         className="min-h-screen pt-8 flex items-center justify-center"
+         className="min-h-screen pt-8 flex items-center justify-center p-2"
          id="contact">
          <div className="flex flex-col lg:flex-row items-start md:items-center justify-between w-full">
             <WithMotion
