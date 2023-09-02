@@ -7,9 +7,9 @@ import Link from "next/link";
 const Projects = () => {
    return (
       <div
-         className="min-h-screen px-2"
+         className="min-h-screen flex items-center justify-center px-2 py-20"
          id="projects">
-         <div className="p-2 md:p-4 lg:p-6 2xl:p-12">
+         <div className="p-2 md:p-4 lg:p-6 2xl:p-12 w-full">
             <WithMotion
                className="grid grid-cols-2 gap-8"
                variants={fadeIn("down", 0.3)}
